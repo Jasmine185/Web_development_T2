@@ -1,0 +1,136 @@
+﻿/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   The Great Lakescape Lodge Layout Styles
+   Filename: lake_layout.css
+
+*/
+
+.top,.top a{
+   background-color: #5f065f;
+   color: white;
+   opacity: 0.6;
+   text-decoration: none;
+}
+
+li{
+    list-style: none;;
+}
+
+#leftcol h1 {
+    font-style: italic;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: white;
+    padding-left: 5%;
+    font-family: 'Times New Roman', serif;
+}
+
+
+
+
+#leftcol{
+    background-color: black;
+    color: white;
+}
+#leftcol h1{
+    font-size: 50px;
+    font-weight: normal;
+}
+
+#leftcol h1,p{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#leftcol a{
+    color: #e89ccf;
+    text-decoration: none;
+}
+
+.notes{
+    background-color: #e9967a;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 16px; 
+    font-style: italic; 
+}
+
+.up{
+    background-color: #f0e68c;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 16px; 
+    font-style: italic; 
+}
+
+
+#rightcol{
+    background-color: rgb(153, 75, 227);
+    border-color: #7b54e4;
+}
+#rightcol h2{
+    color: white;
+    padding-left: 5%;
+}
+
+#rightcol a{
+    color: #b0acac;
+    text-decoration: none;
+}
+#rightcol li{
+    list-style: none;
+}
+
+footer{
+    background-color: #4b4c4d;
+}
+
+
+blockquote{
+    position: relative;
+    padding-left: 1em;
+    color: rgb(225, 230, 230);
+}
+
+blockquote{
+   position:relative ;
+   top: 100px;
+}
+blockquote:before {
+
+    color: #392570;
+    
+    content: "\201C";
+    
+    font-size: 5em;
+    
+    position: absolute;
+    
+    left: -60px;
+    
+    top: 10px;
+    
+    line-height: 0.1em;
+    
+    }
+    
+    blockquote:after {
+    
+    color: #392570;
+    
+    content: "\201D";
+    
+    font-size: 5em;
+    
+    position:absolute;
+    
+    right:-75px;
+    
+    bottom: -1em;
+    
+    line-height: -2em;
+    
+    }
+    
